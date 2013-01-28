@@ -3,3 +3,4 @@ ri
 pkg
 *.swp
 .rbx
+Gemfile.lock
