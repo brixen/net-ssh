@@ -1,3 +1,5 @@
+language: ruby
+before_script: ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'
 script: ruby -Ilib -Itest -rrubygems test/test_all.rb
 rvm:
   - 1.8.7
